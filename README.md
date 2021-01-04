@@ -2,6 +2,8 @@
 
 https://github-readme-stats.vercel.app/api?username=ppotatoo&theme=dark
 
+[Image](https://github-readme-stats.vercel.app/api?username=ppotatoo&theme=dark)
+
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
