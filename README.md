@@ -1,4 +1,4 @@
-![Image](https://github-readme-stats.vercel.app/api?username=ppotatoo&theme=dark)
+![Image](https://github-readme-stats.vercel.app/api?username=ppotatoo&theme=dracula)
 
 Here are some ideas to get you started:
 
