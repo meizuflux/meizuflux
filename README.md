@@ -6,4 +6,3 @@
 - 💬 Ask me about discord.py, I'm decent at it
 - 📫 How to reach me: why
 - ⚡ Fun fact: I can't code!
--->
