@@ -1,4 +1,4 @@
-![Image](https://github-readme-stats.vercel.app/api?username=ppotatoo&theme=dracula)
+![Image](https://github-readme-stats.vercel.app/api?username=ppotatoo&theme=dracula) ![count](https://komarev.com/ghpvc/?username=ppotatoo&style=flat-square)
 
 
 - 🔭 I’m currently working on my Discord bot in Python
