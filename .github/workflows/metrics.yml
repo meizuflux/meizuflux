@@ -17,7 +17,7 @@ jobs:
 
           # Options
           user: ppotatoo
-          template: terminal
+          template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/New_York
           plugin_habits: yes
