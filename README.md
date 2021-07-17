@@ -2,7 +2,8 @@
 ### Languages/Frameworks
 > - Python (proficient)
 >   - discord.py (pretty advanced)
->   - asyncpg (pretty good)
+>   - asyncpg (decent)
+>   - uvicorn (not bad)
 > - SQL (decent)
 >   - PostgreSQL (quite familiar)
 >   - SQLite 3 (minimal experience)
