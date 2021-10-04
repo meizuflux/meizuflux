@@ -1,4 +1,4 @@
-### Languages/Frameworks
+### Things I've Done
 > - Python
 >   - Created Discord bots with discord.py
 >   - Developed on multiple websites with ASGI frameworks such as FastAPI and Starlette
