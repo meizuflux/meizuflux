@@ -29,7 +29,7 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_lines: yes
           plugin_activity: yes
-          plugin_activity_days: 14
+          plugin_activity_days: 30
           plugin_activity_filter: all
           plugin_activity_limit: 5
           plugin_activity_load: 300
@@ -38,17 +38,12 @@ jobs:
           plugin_contributors_head: master
           plugin_contributors_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]
           plugin_contributors_sections: contributors
-          plugin_gists: yes
           plugin_habits: yes
-          plugin_habits_days: 14
+          plugin_habits_days: 31
           plugin_habits_facts: yes
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
-          plugin_notable: yes
-          plugin_posts: yes
-          plugin_posts_limit: 4
-          plugin_posts_user: .user.login
           plugin_projects: yes
           plugin_projects_limit: 4
           plugin_repositories: yes
