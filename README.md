@@ -7,7 +7,7 @@
 >   - Proficient with PostgreSQL and SQL in general
 >   - Used `SQLite` a bit
 > - Frontend Web Dev
->   - `AstroJ`S for my personal website
+>   - `AstroJS` for my personal website
 >   - Recently been experimenting with `Vanilla TS`
 >   - Used `Jinja2` for some things as well
 >   - Mainly use `Bulma` for styling, I hate CSS and can't do any styling
