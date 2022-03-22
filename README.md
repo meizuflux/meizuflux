@@ -4,7 +4,7 @@
    - Good scripting capabilities and generally pretty good at Python
    - Many web servers with `aiohttp` and some `ASGI` frameworks
 - SQL
-  - Proficient with PostgreSQL and SQL in general
+  - Proficient with `PostgreSQL` and SQL in general
   - Used `SQLite` a bit
 - Frontend Web Dev
   - `AstroJS` for my personal website
