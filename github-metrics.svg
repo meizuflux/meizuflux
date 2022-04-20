@@ -335,12 +335,12 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 43 commits)</small>
+                    <small class="h-details">(computed from last 42 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 35.3 characters per line of code written</li>
+                        <li>Has approximately 34.3 characters per line of code written</li>
                         <li>Mostly pushes code around 08:00</li>
                         <li>Mostly active on Monday</li>
                     </ul>
@@ -385,22 +385,22 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">29fe13f2</span>
-                            <span class="code">app/utils/db.py</span>
-                            <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--1</span></span>
+                            <span class="code">migrations/2022-04-16-14-10-14.sql</span>
+                            <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--4</span></span>
                         </div>
                     </section>
                 </div>
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -16,7 +16,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"># sort and direction weren't working as params to get passed so they have to go directly into the query<br /></span><span class="token prefix unchanged">·</span><span class="token line"># this is fine as they both are sanitized with the api-spec<br /></span><span class="token prefix unchanged">·</span><span class="token line">query = f"""<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">    SELECT encode(convert_to(cast(id as text), 'UTF8'), 'base64') AS id, owner, name, content, has_password, share_email, private, style, identifier, clicks, creation_date<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    SELECT encode(convert_to(cast(id as text), 'UTF8'), 'base64') AS id, owner, name, content, has_password, share_email, private, clicks, creation_date<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">    FROM notes<br /></span><span class="token prefix unchanged">·</span><span class="token line">    WHERE owner = $1<br /></span><span class="token prefix unchanged">·</span><span class="token line">    ORDER BY {sortby} {direction.upper()}</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -6,9 +6,6 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   has_password BOOLEAN DEFAULT false,<br /></span><span class="token prefix unchanged">·</span><span class="token line">   share_email BOOLEAN DEFAULT True,<br /></span><span class="token prefix unchanged">·</span><span class="token line">   private BOOLEAN DEFAULT false,<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">   style TEXT DEFAULT 'raw', -- 'raw', 'styled'<br /></span><span class="token prefix deleted">-</span><span class="token line">   identifier TEXT DEFAULT 'id', -- 'id', 'name'<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">   clicks BIGINT DEFAULT 0 NOT NULL,<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">   creation_date TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT (NOW() AT TIME ZONE 'UTC'),<br /></span><span class="token prefix deleted">-</span><span class="token line">   UNIQUE (owner, name)<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">   creation_date TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT (NOW() AT TIME ZONE 'UTC')<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">);<br /></span></span>\No newline at end of file</code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 20 Apr 2022, 14:25:13 (timezone America/New_York) with lowlighter/metrics@3.22.0</span>
+                <span>Last updated 20 Apr 2022, 15:17:16 (timezone America/New_York) with lowlighter/metrics@3.22.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
